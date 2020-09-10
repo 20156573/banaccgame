@@ -47,7 +47,7 @@
            var name = document.getElementById('name').value;
            var regex_name =/^[a-zA-Z]+(([',. -][a-zA-Z ])?[a-zA-Z]*)*$/g;
            var test_name = regex_name.test(name) ;
-           if(test_name == true)
+           if(name.replace(' ', '') != '')
             {
                document.getElementById("a_name").innerHTML = "";
             }
@@ -55,6 +55,7 @@
             {
                  document.getElementById("a_name").innerHTML  ="Tên không hợp lệ";
                 dem_sai++;
+               consol.log(1);
             }
 
             var email = document.getElementById('email').value;
