@@ -1,0 +1,63 @@
+.btn-login-sign_up {
+	background-color: #f5f6fa;
+}
+.content {
+	padding-top: 0px;
+	width: 100%;
+}
+.body-body {
+	background-color: #f5f6fa;
+}
+.search-orderbyprice-game {
+	padding-top: 0px;
+	height: 138px;
+}
+.img-dif {
+	opacity: 50%;
+}
+.first-row {
+	height: 160px;
+}
+.first-row img:hover {
+	opacity: 100%;
+}
+.box {
+	box-shadow: 0 3px 6px rgba(33,33,33,.2);
+	transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+.box:hover {
+	box-shadow: 0 5px 10px rgba(0,0,0,0.4);
+}
+.second-row-right table, tr, td {
+	border: 1px solid white;
+}
+.second-row-right img {
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.btn-group a {
+	color: white;
+}
+.btn-group {
+	float: right;
+}
+.footer {
+	height: 150px;
+	background-color: white;
+}
+
+/*infomation*/
+
+.you-left {
+	background-color: white !important;
+}
+
+.you-left-menu:hover {
+	background-color: #c8d6e5;
+	transition: 0.5s;
+}
+.you-right {
+	background-color: white !important;
+}
+
+/*history*/
